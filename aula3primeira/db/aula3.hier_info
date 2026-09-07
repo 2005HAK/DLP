@@ -1,0 +1,56 @@
+|top
+sseg0[0] <= hex_to_sseg:inst.sseg[0]
+sseg0[1] <= hex_to_sseg:inst.sseg[1]
+sseg0[2] <= hex_to_sseg:inst.sseg[2]
+sseg0[3] <= hex_to_sseg:inst.sseg[3]
+sseg0[4] <= hex_to_sseg:inst.sseg[4]
+sseg0[5] <= hex_to_sseg:inst.sseg[5]
+sseg0[6] <= hex_to_sseg:inst.sseg[6]
+sseg0[7] <= hex_to_sseg:inst.sseg[7]
+dp => hex_to_sseg:inst.dp
+hex[0] => hex_to_sseg:inst.hex[0]
+hex[1] => hex_to_sseg:inst.hex[1]
+hex[2] => hex_to_sseg:inst.hex[2]
+hex[3] => hex_to_sseg:inst.hex[3]
+
+
+|top|hex_to_sseg:inst
+hex[0] => Mux0.IN19
+hex[0] => Mux1.IN19
+hex[0] => Mux2.IN19
+hex[0] => Mux3.IN19
+hex[0] => Mux4.IN19
+hex[0] => Mux5.IN19
+hex[0] => Mux6.IN19
+hex[1] => Mux0.IN18
+hex[1] => Mux1.IN18
+hex[1] => Mux2.IN18
+hex[1] => Mux3.IN18
+hex[1] => Mux4.IN18
+hex[1] => Mux5.IN18
+hex[1] => Mux6.IN18
+hex[2] => Mux0.IN17
+hex[2] => Mux1.IN17
+hex[2] => Mux2.IN17
+hex[2] => Mux3.IN17
+hex[2] => Mux4.IN17
+hex[2] => Mux5.IN17
+hex[2] => Mux6.IN17
+hex[3] => Mux0.IN16
+hex[3] => Mux1.IN16
+hex[3] => Mux2.IN16
+hex[3] => Mux3.IN16
+hex[3] => Mux4.IN16
+hex[3] => Mux5.IN16
+hex[3] => Mux6.IN16
+dp => sseg[7].DATAIN
+sseg[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+sseg[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+sseg[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+sseg[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+sseg[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+sseg[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+sseg[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+sseg[7] <= dp.DB_MAX_OUTPUT_PORT_TYPE
+
+
