@@ -1,0 +1,257 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clock50'
+Slack : -3.589
+TNS   : -55.707
+
+Type  : Slow 1200mV 85C Model Setup 'free_run_bin_counter:inst12|max_tick'
+Slack : -0.448
+TNS   : -1.589
+
+Type  : Slow 1200mV 85C Model Setup 'free_run_bin_counter:inst10|max_tick'
+Slack : -0.317
+TNS   : -1.337
+
+Type  : Slow 1200mV 85C Model Setup 'free_run_bin_counter:inst11|max_tick'
+Slack : -0.312
+TNS   : -0.973
+
+Type  : Slow 1200mV 85C Model Setup 'free_run_bin_counter:inst9|max_tick'
+Slack : -0.267
+TNS   : -1.218
+
+Type  : Slow 1200mV 85C Model Setup 'divclock:inst30|max_tick'
+Slack : -0.245
+TNS   : -1.070
+
+Type  : Slow 1200mV 85C Model Setup 'free_run_bin_counter:inst8|max_tick'
+Slack : -0.241
+TNS   : -0.983
+
+Type  : Slow 1200mV 85C Model Hold 'free_run_bin_counter:inst11|max_tick'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'free_run_bin_counter:inst12|max_tick'
+Slack : 0.347
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'free_run_bin_counter:inst9|max_tick'
+Slack : 0.347
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divclock:inst30|max_tick'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'free_run_bin_counter:inst10|max_tick'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'free_run_bin_counter:inst8|max_tick'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock50'
+Slack : 1.515
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock50'
+Slack : -3.000
+TNS   : -26.851
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divclock:inst30|max_tick'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'free_run_bin_counter:inst10|max_tick'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'free_run_bin_counter:inst12|max_tick'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'free_run_bin_counter:inst8|max_tick'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'free_run_bin_counter:inst9|max_tick'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'free_run_bin_counter:inst11|max_tick'
+Slack : -1.403
+TNS   : -5.612
+
+Type  : Slow 1200mV 0C Model Setup 'clock50'
+Slack : -3.211
+TNS   : -49.782
+
+Type  : Slow 1200mV 0C Model Setup 'free_run_bin_counter:inst12|max_tick'
+Slack : -0.309
+TNS   : -0.979
+
+Type  : Slow 1200mV 0C Model Setup 'free_run_bin_counter:inst10|max_tick'
+Slack : -0.206
+TNS   : -0.797
+
+Type  : Slow 1200mV 0C Model Setup 'free_run_bin_counter:inst11|max_tick'
+Slack : -0.195
+TNS   : -0.545
+
+Type  : Slow 1200mV 0C Model Setup 'free_run_bin_counter:inst9|max_tick'
+Slack : -0.151
+TNS   : -0.672
+
+Type  : Slow 1200mV 0C Model Setup 'free_run_bin_counter:inst8|max_tick'
+Slack : -0.137
+TNS   : -0.480
+
+Type  : Slow 1200mV 0C Model Setup 'divclock:inst30|max_tick'
+Slack : -0.133
+TNS   : -0.538
+
+Type  : Slow 1200mV 0C Model Hold 'free_run_bin_counter:inst11|max_tick'
+Slack : 0.306
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'free_run_bin_counter:inst10|max_tick'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'free_run_bin_counter:inst12|max_tick'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'free_run_bin_counter:inst8|max_tick'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'free_run_bin_counter:inst9|max_tick'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divclock:inst30|max_tick'
+Slack : 0.313
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clock50'
+Slack : 1.412
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock50'
+Slack : -3.000
+TNS   : -26.851
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divclock:inst30|max_tick'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'free_run_bin_counter:inst10|max_tick'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'free_run_bin_counter:inst12|max_tick'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'free_run_bin_counter:inst8|max_tick'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'free_run_bin_counter:inst9|max_tick'
+Slack : -1.403
+TNS   : -7.015
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'free_run_bin_counter:inst11|max_tick'
+Slack : -1.403
+TNS   : -5.612
+
+Type  : Fast 1200mV 0C Model Setup 'clock50'
+Slack : -0.845
+TNS   : -12.047
+
+Type  : Fast 1200mV 0C Model Setup 'free_run_bin_counter:inst12|max_tick'
+Slack : 0.360
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'free_run_bin_counter:inst11|max_tick'
+Slack : 0.427
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'free_run_bin_counter:inst10|max_tick'
+Slack : 0.433
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'free_run_bin_counter:inst9|max_tick'
+Slack : 0.457
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divclock:inst30|max_tick'
+Slack : 0.465
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'free_run_bin_counter:inst8|max_tick'
+Slack : 0.465
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'free_run_bin_counter:inst11|max_tick'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divclock:inst30|max_tick'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'free_run_bin_counter:inst10|max_tick'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'free_run_bin_counter:inst12|max_tick'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'free_run_bin_counter:inst8|max_tick'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'free_run_bin_counter:inst9|max_tick'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock50'
+Slack : 0.578
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock50'
+Slack : -3.000
+TNS   : -20.692
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divclock:inst30|max_tick'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'free_run_bin_counter:inst10|max_tick'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'free_run_bin_counter:inst12|max_tick'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'free_run_bin_counter:inst8|max_tick'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'free_run_bin_counter:inst9|max_tick'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'free_run_bin_counter:inst11|max_tick'
+Slack : -1.000
+TNS   : -4.000
+
+------------------------------------------------------------

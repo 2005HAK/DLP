@@ -1,0 +1,7 @@
+
+State Machine - |top|period_counter:inst|state_reg
+Name state_reg.done state_reg.count state_reg.waite state_reg.idle 
+state_reg.idle 0 0 0 0 
+state_reg.waite 0 0 1 1 
+state_reg.count 0 1 0 1 
+state_reg.done 1 0 0 1 

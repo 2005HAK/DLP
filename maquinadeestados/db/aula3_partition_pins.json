@@ -1,0 +1,29 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "led",
+					"strict" : false
+				},
+				{
+					"name" : "sw",
+					"strict" : false
+				},
+				{
+					"name" : "clock50",
+					"strict" : false
+				},
+				{
+					"name" : "reset_sw",
+					"strict" : false
+				},
+				{
+					"name" : "en_sw",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

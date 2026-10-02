@@ -1,0 +1,90 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity debouncer is
+	port(
+		clk, reset: in std_logic;
+		sw, m_tick: in std_logic;
+		db: out std_logic
+	);
+end debouncer;
+
+architecture moore_arch of debouncer is
+	type db_state_type is (zero, wait1_1, wait1_2, wait1_3, one, wait0_1, wait0_2, wait0_3);
+	signal state_reg, state_next: db_state_type;
+begin
+	-- Registrador de Estado
+	process(clk, reset)
+	begin
+		if (reset='1') then
+			state_reg <= zero;
+		elsif (clk'event and clk='1') then
+			state_reg <= state_next;
+		end if;
+	end process;
+
+	-- Lógica de Próximo Estado e Lógica de Saída
+	process(state_reg, sw, m_tick)
+	begin
+		state_next <= state_reg;
+		db <= '0';
+		
+		case state_reg is
+			when zero =>
+				if sw = '0' then
+					state_next <= wait1_1;
+				end if;
+				
+			when wait1_1 =>
+				if sw = '1' then
+					state_next <= zero;
+				elsif m_tick = '1' then
+					state_next <= wait1_2;
+				end if;
+				
+			when wait1_2 =>
+				if sw = '1' then
+					state_next <= zero;
+				elsif m_tick = '1' then
+					state_next <= wait1_3;
+				end if;
+				
+			when wait1_3 =>
+				if sw = '1' then
+					state_next <= zero;
+				elsif m_tick = '1' then
+					state_next <= one;
+				end if;
+				
+			when one =>
+				db <= '1';
+				if sw = '1' then
+					state_next <= wait0_1;
+				end if;
+				
+			when wait0_1 =>
+				db <= '1';
+				if sw = '0' then
+					state_next <= one;
+				elsif m_tick = '1' then
+					state_next <= wait0_2;
+				end if;
+				
+			when wait0_2 =>
+				db <= '1';
+				if sw = '0' then
+					state_next <= one;
+				elsif m_tick = '1' then
+					state_next <= wait0_3;
+				end if;
+				
+			when wait0_3 =>
+				db <= '1';
+				if sw = '0' then
+					state_next <= one;
+				elsif m_tick = '1' then
+					state_next <= zero;
+				end if;
+		end case;
+	end process;
+end moore_arch;

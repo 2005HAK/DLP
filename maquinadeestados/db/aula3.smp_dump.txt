@@ -1,0 +1,11 @@
+
+State Machine - |top|debouncer:inst2|state_reg
+Name state_reg.wait0_3 state_reg.wait0_2 state_reg.wait0_1 state_reg.one state_reg.wait1_3 state_reg.wait1_2 state_reg.wait1_1 state_reg.zero 
+state_reg.zero 0 0 0 0 0 0 0 0 
+state_reg.wait1_1 0 0 0 0 0 0 1 1 
+state_reg.wait1_2 0 0 0 0 0 1 0 1 
+state_reg.wait1_3 0 0 0 0 1 0 0 1 
+state_reg.one 0 0 0 1 0 0 0 1 
+state_reg.wait0_1 0 0 1 0 0 0 0 1 
+state_reg.wait0_2 0 1 0 0 0 0 0 1 
+state_reg.wait0_3 1 0 0 0 0 0 0 1 

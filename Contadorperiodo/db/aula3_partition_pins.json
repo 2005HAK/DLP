@@ -1,0 +1,73 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "done_tick",
+					"strict" : false
+				},
+				{
+					"name" : "ready",
+					"strict" : false
+				},
+				{
+					"name" : "prd[9]",
+					"strict" : false
+				},
+				{
+					"name" : "prd[8]",
+					"strict" : false
+				},
+				{
+					"name" : "prd[7]",
+					"strict" : false
+				},
+				{
+					"name" : "prd[6]",
+					"strict" : false
+				},
+				{
+					"name" : "prd[5]",
+					"strict" : false
+				},
+				{
+					"name" : "prd[4]",
+					"strict" : false
+				},
+				{
+					"name" : "prd[3]",
+					"strict" : false
+				},
+				{
+					"name" : "prd[2]",
+					"strict" : false
+				},
+				{
+					"name" : "prd[1]",
+					"strict" : false
+				},
+				{
+					"name" : "prd[0]",
+					"strict" : false
+				},
+				{
+					"name" : "si",
+					"strict" : false
+				},
+				{
+					"name" : "st",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
